@@ -46,7 +46,9 @@ commands = {'info'     : '{"system":{"get_sysinfo":{}}}',
 			'antitheft': '{"anti_theft":{"get_rules":{}}}',
 			'reboot'   : '{"system":{"reboot":{"delay":1}}}',
 			'reset'    : '{"system":{"reset":{"delay":1}}}',
-			'energy'   : '{"emeter":{"get_realtime":{}}}'
+			'energy'   : '{"emeter":{"get_realtime":{}}}',
+			'leds_off' : '{"system":{"set_led_off":{"off":1}}}',
+			'leds_on'  : '{"system":{"set_led_off":{"off":0}}}'
 }
 
 # Encryption and Decryption of TP-Link Smart Home Protocol
